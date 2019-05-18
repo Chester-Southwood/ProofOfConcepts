@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        First Name: <input type="text" name="firstName" required> Last Name <input type="text" name="lastName" required>
+        <br>
+        Male <input type="radio" name="gender" value="male">
+        Female <input type="radio" name="gender" value="female">
+        Other <input type="radio" name="gender" value="Other">
+        <br>
+        Email: <input type="email" name="userEmail" placeholder="blabla@gmail.com" required> Password: <input type="password" name="userPassword" placeholder="..." minlength="5" maxlength="10" required>
+        <br>
+        Birthday:
+        <select>
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>
+            <option value="Apr">Apr</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="Jul">Jul</option>
+            <option value="Aug">Aug</option>            
+            <option value="Sep">Sep</option>
+            <option value="Oct">Oct</option>
+            <option value="Nov">Nov</option>
+            <option value="Dec">Dec</option>
+          </select>
+          <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>            
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <select>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+              </select>
+        <br>
+        I agree to the terms and conditions <input type="checkbox" name="userCheckbox">
+        <br>
+        <input type="submit" name="userSubmit">
+    </form>
+</body>
+</html>
