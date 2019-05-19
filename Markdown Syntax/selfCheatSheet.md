@@ -6,7 +6,10 @@
 
 ## Ways to write Markdown I found convienent and easy to use.
 
-* Visual Studio Extension 
+* Visual Studio Extension: [auto-open-markdown-previewer](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)
+
+* 3rd party program: [Typora](https://typora.io/)
+with extension [Pandoc](https://pandoc.org/installing.html) to export .md to several different types of files. 
 
 # __Different Headings__
 
