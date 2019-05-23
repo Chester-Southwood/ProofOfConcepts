@@ -84,7 +84,7 @@ https://www.chestersouthwood.net
 
 * Even gifs supported on some markdown flavors.
 
-![Text I think Screen Reader Views](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif "Hover Text of the Image")
+![Text I think Screen Reader Views](tree-diagram.jpeg)"Hover Text of the Image")
 
 # __Github Flavor__
 
